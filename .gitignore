@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data
+recordings/*
+!recordings/.gitkeep
+*.log
+*.csv
+
+# Runtime state
+data/
+logs/
+*.sqlite3
+*.sqlite3-*
+
+# Local configuration
+*.db
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local review archives
+*-review.zip
+
+# Local development artifacts
+*.patch
+*.diff
